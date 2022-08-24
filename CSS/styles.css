@@ -1,0 +1,329 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', serif;
+}
+
+p {
+  color: #7882A4;
+  line-height: 1.5;
+  font-size: 16px;
+  position: relative;
+  font-weight: medium 500;
+}
+
+/* Headings --> */
+.big-heading {
+  font-size: 3.8rem;
+  line-height: 1;
+  padding-bottom: 4%;
+  font-weight: 700;
+}
+
+.section-heading {
+  font-family: 'Montaga', serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #002B5B;
+}
+
+/* Navbar --> */
+.n-container {
+  padding: 2% 16%;
+}
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-button {
+  background: #1c4059;
+  background-image: -webkit-linear-gradient(top, #1c4059, #112c3d);
+  background-image: -moz-linear-gradient(top, #1c4059, #112c3d);
+  background-image: -ms-linear-gradient(top, #1c4059, #112c3d);
+  background-image: -o-linear-gradient(top, #1c4059, #112c3d);
+  background-image: linear-gradient(to bottom, #1c4059, #112c3d);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: 'Montaga', serif;
+  color: #e8f9fd;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-style: none;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background: #b3cfd1;
+  text-decoration: none;
+}
+
+/* Title Section  --> */
+#title {
+  padding: 2% 15% 10%;
+  text-align: left;
+}
+
+.title-p {
+  max-width: 80%;
+  margin-bottom: 7%;
+}
+
+.btn {
+  background: #f54f39;
+  background-image: -webkit-linear-gradient(top, #f54f39, #c28ab7);
+  background-image: -moz-linear-gradient(top, #f54f39, #c28ab7);
+  background-image: -ms-linear-gradient(top, #f54f39, #c28ab7);
+  background-image: -o-linear-gradient(top, #f54f39, #c28ab7);
+  background-image: linear-gradient(to bottom, #f54f39, #c28ab7);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 1px 7px #666666;
+  -moz-box-shadow: 0 1px 1px #666666;
+  box-shadow: 0 1px 7px #666666;
+  font-family: 'Montaga', serif;
+  color: #e8f9fd;
+  font-size: 18px;
+  padding: 13px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b3cfd1;
+  text-decoration: none;
+}
+
+/* Title  --> */
+.title-img {
+  height: 21.875rem;
+  width: 80%;
+  border-radius: 46%;
+  padding: 0 10%;
+  position: absolute;
+  left: 30%;
+}
+
+.snippet-box1 {
+  /* (the small top box on the picture) */
+  background-color: #fff;
+  width: 6.5rem;
+  height: 5rem;
+  line-height: 0;
+  padding: 3%;
+  border-radius: 12%;
+  box-shadow: 0 0 2px lightblue;
+  position: absolute;
+  top: 10%;
+  left: 88%;
+}
+
+.snippet-box2 {
+  /* (the small bottom box on the picture) */
+  background-color: #fff;
+  width: 9rem;
+  height: 4.8rem;
+  line-height: 0;
+  padding: 3%;
+  border-radius: 13%;
+  box-shadow: 0 0 20px lightblue;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+
+.snippet-p {
+  /* (paragraphs in the small boxes) */
+  margin-bottom: 3%;
+  font-size: 0.8125rem;
+}
+
+/* Courses Section  --> */
+#courses {
+  padding: 100px;
+}
+
+.card-head {
+  max-width: 400px;
+  min-height: 322px;
+  padding: 64px 32px 40px;
+}
+
+.card-body {
+  max-width: 400px;
+  /* (this fixed the extra right margin in the first div for courses) */
+  min-height: 322px;
+  padding: 64px 32px 40px;
+}
+
+.card-m {
+  margin-bottom: 90px;
+  box-shadow: 2px 2px 25px lightblue;
+}
+
+.course-names {
+  margin-bottom: 7%;
+}
+
+.courses-heading {
+  box-shadow: 2px 2px 25px lightblue;
+  background-image: -webkit-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -moz-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -ms-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -o-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: linear-gradient(to bottom, #f54f39, #deaaeb);
+}
+
+.courses-title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  max-width: 80%;
+  color: #fff;
+}
+
+/* Icons  --> */
+.icon {
+  color: #fff;
+  border-radius: 100%;
+  padding: 0.3em;
+  background-image: -webkit-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -moz-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -ms-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: -o-linear-gradient(top, #f54f39, #deaaeb);
+  background-image: linear-gradient(to bottom, #f54f39, #deaaeb);
+  position: absolute;
+  left: 5%;
+  top: -5%;
+}
+
+ .link {   /*(all the links on the courses section) */
+  color: #ef8172
+}
+
+.link:hover {
+  color: #b3cfd1;
+  text-decoration: none;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #112c3d;
+  padding: 40px 30px;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-btn {
+  background: #da3fe8;
+  background-image: -webkit-linear-gradient(top, #da3fe8, #f28080);
+  background-image: -moz-linear-gradient(top, #da3fe8, #f28080);
+  background-image: -ms-linear-gradient(top, #da3fe8, #f28080);
+  background-image: -o-linear-gradient(top, #da3fe8, #f28080);
+  background-image: linear-gradient(to bottom, #da3fe8, #f28080);
+  -webkit-border-radius: 46;
+  -moz-border-radius: 46;
+  border-radius: 46px;
+  font-family: 'Montaga', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: 5px;
+  float: right;
+  text-decoration: none;
+}
+
+.footer-btn:hover {
+  background: #b3cfd1;
+  text-decoration: none;
+}
+
+/* Medium screen responsiveness */
+@media (max-width: 989px) {
+
+  #title {
+    padding: 2% 10% 10%;
+    text-align: left;
+  }
+
+  .big-heading {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+
+  .title-p {
+    font-size: 15px;
+    min-width: 120%;
+  }
+  .snippet-box2 {
+    position: absolute;
+    top: 100%;
+  }
+}
+
+/* Small screen responsiveness */
+@media (max-width: 769px) {
+
+  #title {
+    padding: 0;
+    margin-bottom: 60%;
+    max-width: 80%;
+  }
+
+  .n-container {
+    padding: 0;
+  }
+
+  .big-heading {
+    max-width: 80%;
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .title-p {
+    font-size: 16px;
+    min-width: 70%;
+    margin-bottom: 4%;
+  }
+
+  .btn {
+    margin-bottom: 10%;
+  }
+
+  .snippet-box2 {
+    margin: 45% 0 0 5%;
+  }
+
+  .courses-title {
+    font-size: 1.5rem;
+    padding: 5% 0 5% 5%;
+    margin: 0;
+  }
+
+  .card-head {
+    padding: 0;
+    max-width: 390px;
+    min-height: 5%;
+    border-radius: 7px;
+    align-items: center;
+  }
+
+  .card-m {
+    align-self: center;
+    width: 360px;
+  }
+
+}
